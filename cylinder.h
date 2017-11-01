@@ -24,5 +24,5 @@ private:
     float r, h;
 };
 
-#endif // CYLINDR1
+#endif // CYLINDER
 
