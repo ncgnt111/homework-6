@@ -3,7 +3,10 @@
 
 using namespace std;
 
-RectangularParallelepiped::RectangularParallelepiped(float a, float b, float c) {
+RectangularParallelepiped::RectangularParallelepiped(float a, float b, float c)
+    : a(0),
+      b(0),
+      c(0) {
     this->a = a > 0 ? a : 0;
     this->b = b > 0 ? b : 0;
     this->c = c > 0 ? c : 0;

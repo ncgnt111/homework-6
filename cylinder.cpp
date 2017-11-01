@@ -3,7 +3,9 @@
 
 using namespace std;
 
-Cylinder::Cylinder(float r, float h) {
+Cylinder::Cylinder(float r, float h)
+    : r(0),
+      h(0) {
     this->r = r > 0 ? r : 0;
     this->h = h > 0 ? h : 0;
 }
