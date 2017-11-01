@@ -1,0 +1,8 @@
+cd ~/homework-6
+
+g++ -c -std=c++11 -Wall -Wextra main.cpp cylinder.cpp rectangular_parallelepiped.cpp
+g++ -std=c++11 main.o cylinder.o rectangular_parallelepiped.o -o homework-6
+valgrind --tool=memcheck --leak-check=full ./homework-6
+
+
+
